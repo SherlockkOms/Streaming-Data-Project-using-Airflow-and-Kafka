@@ -91,7 +91,7 @@ pathspec==0.11.2
 pendulum==2.1.2
 pluggy==1.3.0
 prison==0.2.1
-protobuf==4.24.2
+protobuf==3.20.0
 psutil==5.9.5
 py4j==0.10.9.7
 pycparser==2.21
@@ -128,7 +128,7 @@ text-unidecode==1.3
 typing_extensions==4.7.1
 uc-micro-py==1.0.2
 unicodecsv==0.14.1
-urllib3==2.0.4
+urllib3==1.26.7
 Werkzeug==2.2.3
 wrapt==1.15.0
 WTForms==3.0.1
