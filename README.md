@@ -3,13 +3,8 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [System Architecture](#system-architecture)
-- [Technologies Used and Learnings](#technologies-used-and-learnings)
-- [Prerequisites](#prerequisites)
-- [Installation and Setup](#installation-and-setup)
-- [Usage and Workflow](#usage-and-workflow)
-- [Contributing](#contributing)
-- [Resources and Acknowledgments](#resources-and-acknowledgments)
-- [Watch the Video Tutorial](#watch-the-video-tutorial)
+- [Technology Stack and System Insights](#technology-stack-and-system-insights)
+- [Acknowledgment](#acknowledgment)
 
 ## Introduction
 
@@ -33,5 +28,5 @@ The project integrates a robust suite of technologies, each playing a vital role
 The system's architecture, encompassing these technologies, ensures efficient data flow from the `randomuser.me` API through processing stages to final storage in Cassandra.
 
 
-## Resources and Acknowledgments
+## Acknowledgment
 - Inspired by CodeWithYu's insightful project video, available [here](https://www.youtube.com/watch?v=GqAcTrqKcrY).
