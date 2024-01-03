@@ -2,6 +2,9 @@ import uuid
 from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
+import os
+os.environ['PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION'] = 'python'
+
 
 default_args = {
     'owner': 'SherlockkOms',
