@@ -14,7 +14,7 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 
 ## System Architecture
 
-![System Architecture](Architecture diagram.png)
+![System Architecture](Architecture Diagram.png)
 
 The project is designed with the following components:
 
