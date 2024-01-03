@@ -1,53 +1,37 @@
-# Real-Time-Streaming-Project-using-Airflow-Kafka-and-Docker.
+# Real-Time Streaming Project using Airflow, Kafka, and Docker
 
 ## Table of Contents
-- [Real-Time-Streaming-Project-using-Airflow-Kafka-and-Docker.](#real-time-streaming-project-using-airflow-kafka-and-docker)
-  - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [System Architecture](#system-architecture)
-  - [What You'll Learn](#what-youll-learn)
-  - [Technologies](#technologies)
-  - [Watch the Video Tutorial](#watch-the-video-tutorial)
+- [Introduction](#introduction)
+- [System Architecture](#system-architecture)
+- [Technologies Used and Learnings](#technologies-used-and-learnings)
+- [Prerequisites](#prerequisites)
+- [Installation and Setup](#installation-and-setup)
+- [Usage and Workflow](#usage-and-workflow)
+- [Contributing](#contributing)
+- [Resources and Acknowledgments](#resources-and-acknowledgments)
+- [Watch the Video Tutorial](#watch-the-video-tutorial)
 
 ## Introduction
 
-This project serves as a comprehensive guide to building an end-to-end data engineering pipeline. It covers each stage from data ingestion to processing and finally to storage, utilizing a robust tech stack that includes Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, and Cassandra. Everything is containerized using Docker for ease of deployment and scalability.
+This project is a deep dive into building an end-to-end data engineering pipeline, exploring each phase from data ingestion, through processing, to storage. It leverages a powerful tech stack including Apache Airflow, Python, Apache Kafka, Apache Zookeeper, Apache Spark, Cassandra, all within a Dockerized environment for streamlined deployment and scalability.
 
 ## System Architecture
 
-![architecture-placeholder](Images/Architecture%20Diagram.png)
+![System Architecture](Images/Architecture%20Diagram.png)
 
-The project is designed with the following components:
+## Technology Stack and System Insights
 
-- **Data Source**: We use `randomuser.me` API to generate random user data for our pipeline.
-- **Apache Airflow**: Responsible for orchestrating the pipeline and storing fetched data in a PostgreSQL database.
-- **Apache Kafka and Zookeeper**: Used for streaming data from PostgreSQL to the processing engine.
-- **Control Center and Schema Registry**: Helps in monitoring and schema management of our Kafka streams.
-- **Apache Spark**: For data processing with its master and worker nodes.
-- **Cassandra**: Where the processed data will be stored.
+The project integrates a robust suite of technologies, each playing a vital role in the data pipeline:
 
-## What You'll Learn
+- **Apache Airflow & PostgreSQL**: Orchestrates the data pipeline and manages data storage. Airflow's scheduling and workflow automation capabilities are central to the project.
+- **Apache Kafka & Zookeeper**: Kafka streams data in real-time, with Zookeeper ensuring distributed coordination, offering insights into high-throughput data pipelines and system synchronization.
+- **Apache Spark**: Handles complex data processing tasks, showcasing distributed computing and large-scale data processing.
+- **Cassandra**: Used for storing processed data, highlighting NoSQL database management and scalability.
+- **Python**: Facilitates scripting and data manipulation, underscoring its versatility in various data engineering tasks.
+- **Docker**: Containerizes the setup, providing a hands-on experience with deployment and orchestration.
 
-- Setting up a data pipeline with Apache Airflow
-- Real-time data streaming with Apache Kafka
-- Distributed synchronization with Apache Zookeeper
-- Data processing techniques with Apache Spark
-- Data storage solutions with Cassandra and PostgreSQL
-- Containerizing your entire data engineering setup with Docker
+The system's architecture, encompassing these technologies, ensures efficient data flow from the `randomuser.me` API through processing stages to final storage in Cassandra.
 
-## Technologies
 
-- Apache Airflow
-- Python
-- Apache Kafka
-- Apache Zookeeper
-- Apache Spark
-- Cassandra
-- PostgreSQL
-- Docker
-
-For more detailed instructions, please check out the video tutorial linked below.
-
-## Watch the Video Tutorial
-
-For a complete walkthrough and practical demonstration, check out our [YouTube Video Tutorial](https://www.youtube.com/watch?v=GqAcTrqKcrY).
+## Resources and Acknowledgments
+- Inspired by CodeWithYu's insightful project video, available [here](https://www.youtube.com/watch?v=GqAcTrqKcrY).
