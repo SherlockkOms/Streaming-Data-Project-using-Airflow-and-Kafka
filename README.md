@@ -1,12 +1,13 @@
 # Real-Time-Streaming-Project-using-Airflow-Kafka-and-Docker.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [System Architecture](#system-architecture)
-- [What You'll Learn](#what-youll-learn)
-- [Technologies](#technologies)
-- [Getting Started](#getting-started)
-- [Watch the Video Tutorial](#watch-the-video-tutorial)
+- [Real-Time-Streaming-Project-using-Airflow-Kafka-and-Docker.](#real-time-streaming-project-using-airflow-kafka-and-docker)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [System Architecture](#system-architecture)
+  - [What You'll Learn](#what-youll-learn)
+  - [Technologies](#technologies)
+  - [Watch the Video Tutorial](#watch-the-video-tutorial)
 
 ## Introduction
 
@@ -14,7 +15,7 @@ This project serves as a comprehensive guide to building an end-to-end data engi
 
 ## System Architecture
 
-![System Architecture](.Architecture Diagram.png)
+![System Architecture](Images\Architecture Diagram.png)
 
 The project is designed with the following components:
 
